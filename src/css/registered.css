@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: white;
+}
+
+.bloc11{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/calgary-indoor-field-1080x675.jpg);
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.bloc11::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 16, 128, 0.418);
+    position: absolute;
+    z-index: 0;
+}
+
+.navbar11{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all .3s;
+    border-bottom: 1px solid yellow;
+}
+
+.sm-navbar11{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    margin-top: .75pc;
+    margin-bottom: .75pc;
+}
+
+
+.logo{
+    color: rgb(72, 251, 72);
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    font-family: "Cookie";
+    font-size: 50px;
+}
+
+.logo span{
+    color: yellow;
+    font-family: "Cookie";
+}
+
+.text11{
+    display: flex;
+    align-items: center;
+}
+
+.text11 span{
+    font-size: 26px;
+    margin-right: 0.6pc;
+    color: yellow;
+}
+
+.sm-card1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1{
+    color: rgb(255, 255, 0);
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    font-size: 24px;
+    font-weight: 200;
+    justify-content: space-between;
+    margin-top: 3pc;
+    padding-bottom: 3px;
+    border-bottom: 1px yellow solid;
+}
