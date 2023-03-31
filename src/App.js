@@ -6,12 +6,14 @@ import Admin from "./Pages/Admin";
 import Registered from "./Pages/Registered";
 import Last from "./Pages/Last";
 import Signup from "./Pages/Signup";
+import Signupuser from "./Pages/Signupuser";
 
 const App = () => {
   return(
     <div>
         <Routes>
-            <Route path="/" element={<Index />} />
+            <Route path="/" element={<Signupuser />} />
+            <Route path="/index" element={<Index />} />
             <Route exact path="/admin" element={<Admin />} />
             <Route path="r" element={<Registered />} />
             <Route path="rl" element={<Last />} />

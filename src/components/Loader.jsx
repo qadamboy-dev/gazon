@@ -7,10 +7,14 @@ const Loader = () => {
 
   window.addEventListener("load", loader)
 
+  var date = new Date()
+  var second = date.getSeconds()
+  var min = second + 1 - second
+
   function loader(){
       setTimeout(() => {
           load1(false)
-      }, 3000)
+      }, min)
   }
 
   return (

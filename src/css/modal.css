@@ -1,0 +1,200 @@
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    opacity:1;
+    background: rgba(255, 255, 255, 0.39);
+    transition: .3s;
+    pointer-events: all;
+}
+
+.modall{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.39);
+    transition: .3s;
+    opacity: 0;
+}
+
+.sm-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 80%;
+    border-radius: 20px;
+    background-color: rgb(214, 252, 1);
+}
+
+.sm-modal h1{
+    padding-top: 1pc;
+}
+
+.tetx{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    width: 80%;
+    padding: 20px 0;
+    color: rgb(110, 104, 104);
+}
+
+.sm-tetx{
+    display: flex;
+    width: 100%;
+    padding-top: 1pc;
+    justify-content: space-between;
+}
+
+.bt{
+    padding: 13px 30px;
+    color: white;
+    border: none;
+    transition: .3s;
+}
+
+.btnf{
+    background: forestgreen;
+}
+
+.btnr{
+    background: red;
+}
+
+.btnb{
+    border: 1px solid blue;
+    position: relative;
+    z-index: 13;
+}
+
+.btnb0::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: forestgreen;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 10%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 20%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 30%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb4::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 40%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb5::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 50%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb6::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 60%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb7::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 70%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb8::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 80%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb9::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 90%;
+    z-index: -1;
+    height: 100%;
+}
+
+.btnb10::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
