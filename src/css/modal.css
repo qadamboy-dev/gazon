@@ -6,7 +6,7 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 20;
     opacity:1;
     background: rgba(255, 255, 255, 0.39);
     transition: .3s;
@@ -32,8 +32,9 @@
     flex-direction: column;
     align-items: center;
     width: 35%;
-    height: 80%;
+    height: auto;
     border-radius: 20px;
+    z-index: 10;
     background-color: rgb(214, 252, 1);
 }
 
@@ -197,4 +198,47 @@
     width: 100%;
     z-index: -1;
     height: 100%;
+}
+
+.regs{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    transition: .3s;
+    padding: 0 0 2pc 0;
+}
+
+.sm-regs{
+    display: flex;
+    flex-direction: column;
+}
+
+.sm-regs label{
+    color: rgb(110, 104, 104);
+    font-size: 20px;
+    padding-bottom: 0.7pc;
+}
+
+.sm-regs input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px blue solid;
+    background: transparent;
+    padding-left: 2pc;
+    font-size: 17px;
+    color: blue;
+}
+
+.sm-regs input::placeholder{
+    color: blue;
+}
+
+.pad{
+    margin-bottom: 1pc;
+}
+
+.dr{
+    display: none;
+    transition: .3s;
 }
